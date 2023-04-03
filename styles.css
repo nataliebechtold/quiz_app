@@ -72,6 +72,8 @@ button{
   position: absolute;
   right: 5px;
   top: -10px;
+  -webkit-filter: drop-shadow(5px 5px 5px #c6c4c4);
+  filter: drop-shadow(5px 5px 5px #c6c4c45f);
 }
 
 .inner-card {
@@ -140,6 +142,7 @@ button{
 
 .profile-top h2{
   margin-left: 50px;
+  color: #1E555C;
 }
 
 .profile-pic {
@@ -150,6 +153,7 @@ button{
   width: 70%;
   text-align: justify;
   margin-bottom: 30px;
+  color: #1E555C;
 }
 
 .counter-card{
@@ -198,6 +202,7 @@ button{
   margin-top: 30px;
   margin-bottom: 50px;
   width: 50%;
+  color: #1E555C;
 }
 
 .toggle-box{
@@ -212,8 +217,8 @@ button{
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 50px;
+  height: 24px;
 }
 
 /* Hide default HTML checkbox */
@@ -239,8 +244,8 @@ button{
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 16px;
+  width: 16px;
   left: 4px;
   bottom: 4px;
   background-color: white;
