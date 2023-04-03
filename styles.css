@@ -3,7 +3,7 @@
 }
 
 h1 {
-  background-color: bisque;
+  background-color: #F1C5A8;
   width: 100%;
   padding: 30px;
   text-align: center;
@@ -15,11 +15,13 @@ h1 {
   top: 0px;
   z-index: 1;
   min-width: 500px;
+  box-shadow: 10px 10px 20px rgba(122, 79, 0, 0.102);
 }
 
 h2{
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 button{
@@ -109,25 +111,14 @@ button{
     position: fixed;
     bottom: 0px;
     display: flex;
-    background-color: bisque;
+    background-color: #F1C5A8;
     width: 100%;
     justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     min-width: 500px;
 }
 
 .nav-profile {
   height: 48px;
-}
-
-.nav-bookmark-active{
-  background-color: rgba(240, 255, 255, 0.599);
-  padding-top: 7px;
-  padding-bottom: 7px;
-}
-
-.nav-home-active{
-  background-color: rgba(240, 255, 255, 0.599);
-  padding: 7px;
 }
