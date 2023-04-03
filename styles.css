@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: bisque;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.question-card {
+  background-color: rgb(255, 247, 238);
+  padding: 15px;
+  padding-top: 35px;
+  position: relative;
+}
+
+.card-bookmark{
+  position: absolute;
+  right: 5px;
+  top: -10px;
+}
+
+.inner-card {
+
+}
+.badges{
+  display: flex;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    background-color: bisque;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile {
+  height: 48px;
+}
