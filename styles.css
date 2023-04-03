@@ -22,6 +22,8 @@ h1 {
   padding: 15px;
   padding-top: 35px;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(122, 79, 0, 0.102);
 }
 
 .card-bookmark{
@@ -35,6 +37,36 @@ h1 {
 }
 .badges{
   display: flex;
+}
+
+.html-badge{
+  background-color: blue;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  color: white;
+  border-radius: 3px;
+}
+
+.flexbox-badge {
+  background-color: green;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  color: white;
+  border-radius: 3px;
+}
+
+.css-badge {
+  background-color: red;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  color: white;
+  border-radius: 3px;
 }
 
 .navbar {
