@@ -8,6 +8,27 @@ h1 {
   padding: 30px;
   text-align: center;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+
+button{
+  background-color: bisque;
+  border-style: dashed;
+  border-color: white;
+  box-shadow: 10px 10px 20px rgba(122, 79, 0, 0.102);
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .container {
@@ -19,11 +40,13 @@ h1 {
 
 .question-card {
   background-color: rgb(255, 247, 238);
-  padding: 15px;
+  padding: 35px;
   padding-top: 35px;
   position: relative;
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(122, 79, 0, 0.102);
+/*   display: flex;
+  flex-direction: column; */
 }
 
 .card-bookmark{
@@ -33,14 +56,18 @@ h1 {
 }
 
 .inner-card {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .badges{
   display: flex;
+  margin-top: 40px;
 }
 
 .html-badge{
-  background-color: blue;
+  background-color: #EDB183;
   padding: 6px;
   padding-left: 10px;
   padding-right: 10px;
@@ -50,7 +77,7 @@ h1 {
 }
 
 .flexbox-badge {
-  background-color: green;
+  background-color: #1E555C;
   padding: 6px;
   padding-left: 10px;
   padding-right: 10px;
@@ -60,7 +87,7 @@ h1 {
 }
 
 .css-badge {
-  background-color: red;
+  background-color: #F4D8CD;
   padding: 6px;
   padding-left: 10px;
   padding-right: 10px;
