@@ -148,6 +148,8 @@ button{
 
 .about{
   width: 70%;
+  text-align: justify;
+  margin-bottom: 30px;
 }
 
 .counter-card{
@@ -194,13 +196,14 @@ button{
 
 .settings{
   margin-top: 30px;
-  width: 70%;
+  margin-bottom: 50px;
+  width: 50%;
 }
 
 .toggle-box{
-  margin-bottom: 200px;
+/*   margin-bottom: 200px; */
   display: flex;
-/*   align-items: center; */
+  align-items: center;
   justify-content: space-between;
 }
 
