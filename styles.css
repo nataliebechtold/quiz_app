@@ -14,6 +14,7 @@ h1 {
   position: fixed;
   top: 0px;
   z-index: 1;
+  min-width: 500px;
 }
 
 h2{
@@ -54,6 +55,7 @@ button{
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(122, 79, 0, 0.102);
   margin-bottom: 50px;
+  min-width: 500px;
 }
 
 .card-bookmark{
@@ -112,8 +114,20 @@ button{
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
+    min-width: 500px;
 }
 
-.profile {
+.nav-profile {
   height: 48px;
+}
+
+.nav-bookmark-active{
+  background-color: rgba(240, 255, 255, 0.599);
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.nav-home-active{
+  background-color: rgba(240, 255, 255, 0.599);
+  padding: 7px;
 }
